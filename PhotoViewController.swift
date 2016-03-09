@@ -10,6 +10,7 @@ import UIKit
 
 class PhotoViewController: UIViewController {
 
+    var instagramDatas: [NSDictionary]?
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,27 +28,11 @@ class PhotoViewController: UIViewController {
                 if let data = dataOrNil {
                     if let responseDictionary = try! NSJSONSerialization.JSONObjectWithData(
                         data, options:[]) as? NSDictionary {
-                            NSLog("response: \(responseDictionary)")
+                            self.instagramDatas = responseDictionary["data"] as? [NSDictionary]
                     }
                 }
         });
         task.resume()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
