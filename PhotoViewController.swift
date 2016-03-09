@@ -64,5 +64,9 @@ class PhotoViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 320
     }
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var vc = segue.destinationViewController as! PhotoDetailsViewController
+        var indexPath = tblView.indexPathForCell(sender as! UITableViewCell)
+        
+    }
 }

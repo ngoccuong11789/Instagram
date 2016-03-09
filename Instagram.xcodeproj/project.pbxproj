@@ -13,6 +13,7 @@
 		04DE6D871C9049F800A19906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6D851C9049F800A19906 /* LaunchScreen.storyboard */; };
 		04DE6D8F1C904FD400A19906 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE6D8E1C904FD400A19906 /* PhotoViewController.swift */; };
 		04DE6D911C90586200A19906 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE6D901C90586200A19906 /* PhotoCell.swift */; };
+		04DE6D931C90634E00A19906 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE6D921C90634E00A19906 /* PhotoDetailsViewController.swift */; };
 		9867D4B4A4F9D286E2932737 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2D532EEE6D3CE66BA61D4A /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		04DE6D881C9049F800A19906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DE6D8E1C904FD400A19906 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../PhotoViewController.swift; sourceTree = "<group>"; };
 		04DE6D901C90586200A19906 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		04DE6D921C90634E00A19906 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		1C2D532EEE6D3CE66BA61D4A /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B16041E4467E519459ABD1 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		E0CC264779CC8EACB2CC759A /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				04DE6D8E1C904FD400A19906 /* PhotoViewController.swift */,
+				04DE6D921C90634E00A19906 /* PhotoDetailsViewController.swift */,
 				04DE6D7C1C9049F800A19906 /* AppDelegate.swift */,
 				04DE6D801C9049F800A19906 /* Main.storyboard */,
 				04DE6D831C9049F800A19906 /* Assets.xcassets */,
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DE6D931C90634E00A19906 /* PhotoDetailsViewController.swift in Sources */,
 				04DE6D7D1C9049F800A19906 /* AppDelegate.swift in Sources */,
 				04DE6D911C90586200A19906 /* PhotoCell.swift in Sources */,
 				04DE6D8F1C904FD400A19906 /* PhotoViewController.swift in Sources */,
